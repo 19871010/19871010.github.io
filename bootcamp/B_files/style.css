@@ -1,0 +1,219 @@
+sup {
+	position: relative;
+	top: -0.4em;
+	vertical-align: baseline;
+}
+sub {
+	position: relative;
+	top: 0.4em;
+	vertical-align: baseline;
+}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+@media screen and (min-device-pixel-ratio:0), (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio: 0) { .view { font-size:10em; transform:scale(0.1); -moz-transform:scale(0.1); -webkit-transform:scale(0.1); -moz-transform-origin:top left; -webkit-transform-origin:top left; } }
+.layer { }.ie { font-size: 1pt; }
+.ie body { font-size: 12em; }
+.stl_01 {
+	position: absolute;
+	white-space: nowrap;
+}
+.stl_02 {
+	height: 70.16666em;
+	font-size: 1em;
+	margin: 0em;
+	line-height: 0.0em;
+	display: block;
+	border-style: none;
+	width: 49.58333em;
+}
+.stl_03 {
+	position: relative;
+}
+.stl_04 {
+	position: absolute;
+	left: 0em;
+	top: 0em;
+}
+.stl_05 {
+	position: relative;
+	width: 49.58333em;
+}
+.stl_06 {
+	height: 7.016666em;
+}
+.ie .stl_06 {
+	height: 70.16666em;
+}
+@font-face {
+	font-family:"BUQVDD+Verdana-Bold";
+	src:url("fcb6b95f-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_07 {
+	font-size: 0.833333em;
+	font-family: "BUQVDD+Verdana-Bold";
+	color: #141414;
+}
+.stl_08 {
+	line-height: 1.041992em;
+}
+.stl_09 {
+	letter-spacing: -0.0002em;
+}
+
+.ie .stl_09 {
+	letter-spacing: -0.0033px;
+}
+@font-face {
+	font-family:"HNGMMO+Superclarendon-Regular";
+	src:url("bb24d4f5-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_10 {
+	font-size: 0.916667em;
+	font-family: "HNGMMO+Superclarendon-Regular";
+	color: #141414;
+}
+.stl_11 {
+	line-height: 1.205em;
+}
+.stl_12 {
+	letter-spacing: 0em;
+}
+
+.ie .stl_12 {
+	letter-spacing: 0px;
+}
+@font-face {
+	font-family:"BCBGDF+STSongti-SC-Regular";
+	src:url("187d3bf5-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_13 {
+	font-size: 0.833333em;
+	font-family: "BCBGDF+STSongti-SC-Regular", "Times New Roman";
+	color: #141414;
+}
+.stl_14 {
+	line-height: 1.4em;
+}
+@font-face {
+	font-family:"TRDRDG+Verdana";
+	src:url("465de362-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_15 {
+	font-size: 0.833333em;
+	font-family: "TRDRDG+Verdana";
+	color: #141414;
+}
+.stl_16 {
+	letter-spacing: -0.0001em;
+}
+
+.ie .stl_16 {
+	letter-spacing: -0.001px;
+}
+@font-face {
+	font-family:"MWOKPT+PingFangSC-Regular";
+	src:url("2e96a918-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_17 {
+	font-size: 0.916667em;
+	font-family: "MWOKPT+PingFangSC-Regular", "Times New Roman";
+	color: #000000;
+}
+.stl_18 {
+	line-height: 1.204em;
+}
+@font-face {
+	font-family:"TJSLWP+Tahoma";
+	src:url("a7ee554a-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_19 {
+	font-size: 0.916667em;
+	font-family: "TJSLWP+Tahoma";
+	color: #0000FF;
+}
+.stl_20 {
+	font-size: 0.833333em;
+	font-family: "TRDRDG+Verdana";
+	color: #131313;
+}
+.stl_21 {
+	font-size: 0.833333em;
+	font-family: "MWOKPT+PingFangSC-Regular", "Times New Roman";
+	color: #131313;
+}
+.stl_22 {
+	font-size: 0.916667em;
+	font-family: "TJSLWP+Tahoma";
+	color: #0000FE;
+}
+.stl_23 {
+	font-size: 0.833333em;
+	font-family: "BCBGDF+STSongti-SC-Regular", "Times New Roman";
+	color: #131313;
+}
+.stl_24 {
+	font-size: 0.916667em;
+	font-family: "TJSLWP+Tahoma";
+	color: #000000;
+}
+.stl_25 {
+	letter-spacing: -0.0009em;
+}
+
+.ie .stl_25 {
+	letter-spacing: -0.012px;
+}
+.stl_26 {
+	letter-spacing: -0.0008em;
+}
+
+.ie .stl_26 {
+	letter-spacing: -0.012px;
+}
+.stl_27 {
+	letter-spacing: -0.0004em;
+}
+
+.ie .stl_27 {
+	letter-spacing: -0.0061px;
+}
+.stl_28 {
+	letter-spacing: -0.0006em;
+}
+
+.ie .stl_28 {
+	letter-spacing: -0.0083px;
+}
+.stl_29 {
+	letter-spacing: -0.0018em;
+}
+
+.ie .stl_29 {
+	letter-spacing: -0.0259px;
+}
+.stl_30 {
+	letter-spacing: -0.0012em;
+}
+
+.ie .stl_30 {
+	letter-spacing: -0.0171px;
+}
+.stl_31 {
+	font-size: 0.833333em;
+	font-family: "BUQVDD+Verdana-Bold";
+	color: #131313;
+}
+.stl_32 {
+	font-size: 0.916667em;
+	font-family: "HNGMMO+Superclarendon-Regular";
+	color: #131313;
+}
+@font-face {
+	font-family:"CUQSMP+Helvetica";
+	src:url("e7fd49ed-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_33 {
+	font-size: 1em;
+	font-family: "CUQSMP+Helvetica", "Times New Roman";
+	color: #000000;
+}
