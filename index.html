@@ -1,509 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="keywords" content="常用软件" />
-    <title>我要修电脑-常用软件下载</title>
-    <style type="text/css">
-        html,
-        body,
-        div,
-        dl,
-        dt,
-        dd,
-        ul,
-        ol,
-        li,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        pre,
-        code,
-        form,
-        fieldset,
-        legend,
-        input,
-        textarea,
-        p,
-        blockquote,
-        th,
-        td {
-            margin: 0;
-            padding: 0;
-            font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
-            font-size: 100%;
-        }
-
-        html,
-        body {
-            color: #333
-        }
-
-        body {
-            background: #fff;
-        }
-
-        ul,
-        ol,
-        li {
-            list-style: none;
-        }
-
-        a:link,
-        a:visited {
-            color: #333;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #666;
-            text-decoration: none;
-        }
-
-        img {
-            border: none;
-        }
-
-        em {
-            font-style: normal;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            font-weight: normal;
-        }
-
-        .downWrap {
-            width: 980px;
-            margin: 0 auto;
-            padding-top: 60px;
-            background: #fff;
-        }
-
-        .recommonDown {
-            width: 979px;
-            min-height: 314px;
-            margin-bottom: 40px;
-            border-top: 1px solid #e7e7e7;
-            border-left: 1px solid #e7e7e7;
-        }
-
-        .recommonDown .rcwrap {
-            float: left;
-            width: 325px;
-            border-right: 1px solid #e7e7e7;
-            border-bottom: 1px solid #e7e7e7;
-        }
-
-        .recommonDown .rcpad {
-            width: 326px;
-        }
-
-        .rcclick {
-            display: block;
-            width: 100%;
-            height: 175px;
-            overflow: hidden;
-            text-align: center;
-        }
-
-        .rcwrap h2 {
-            height: 70px;
-            text-align: center;
-            line-height: 70px;
-        }
-
-        .rcwrap h2 strong {
-            font-size: 22px;
-        }
-
-        .rcwrap h2 em {
-            font-size: 14px;
-        }
-
-        .rcwrap h2 span {
-            color: #979797;
-        }
-
-        .rcwrap h2 span.on {
-            color: #000;
-        }
-
-        .lbtn {
-            width: 142px;
-            height: 68px;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 14px;
-        }
-
-        .lbtn em {
-            display: block;
-            height: 20px;
-            line-height: 17px;
-            color: #848484;
-            font-size: 12px;
-        }
-
-        .down_btn_126x30 {
-            display: block;
-            width: 126px;
-            height: 30px;
-            margin: 0 auto;
-            background: transparent url("images/down_btn_126x30.png")
-                no-repeat 0 0;
-            line-height: 30px;
-        }
-
-        .down_btn_126x30:hover {
-            background-position: 0 bottom;
-        }
-
-        .down_btn_126x30 span {
-            padding-left: 24px;
-            color: #fff;
-            letter-spacing: 0.12em;
-        }
-
-        .tim .down_btn_126x30 span {
-            padding-left: 0px;
-            background: none;
-        }
-
-        .flbtn {
-            width: 284px;
-            margin: 0 auto;
-        }
-
-        .flbtn .lbtn {
-            float: left;
-        }
-
-        .drwrap {
-            position: relative;
-            width: 100%;
-            height: 30px;
-        }
-
-        /* other products */
-        .otherpro {
-            width: 979px;
-            min-height: 290px;
-            margin-bottom: 40px;
-            border-top: 1px solid #e7e7e7;
-            border-left: 1px solid #e7e7e7;
-        }
-
-        .proh2 {
-            height: 37px;
-            line-height: 19px;
-            font-size: 18px;
-        }
-
-        .otherpro ul {
-            width: 980px;
-            margin-right: -1px;
-            overflow: auto;
-            zoom: 1;
-        }
-
-        .otherpro li {
-            float: left;
-            width: 489px;
-            border-right: 1px solid #e7e7e7;
-            border-bottom: 1px solid #e7e7e7;
-        }
-
-        .otherpro li .prolist {
-            float: left;
-            height: 68px;
-            padding: 29px 0 0 97px;
-        }
-
-        .otherpro li .ios {
-            background: transparent url("icons/mac_icon.png")
-                /*tpa=https://sqimg.qq.com/qq_product_operations/im/2015/mac_icon.png*/
-                no-repeat 30px center;
-        }
-
-        .otherpro li .ipc {
-            background: transparent url("icons/pc_icon.png")
-                /*tpa=https://sqimg.qq.com/qq_product_operations/im/2015/pc_icon.png*/
-                no-repeat 20px center;
-        }
-
-        .otherpro li .and {
-            background: transparent url("icons/and_icon.png")
-                /*tpa=https://sqimg.qq.com/qq_product_operations/im/2015/and_icon.png*/
-                no-repeat 30px center;
-        }
-
-        .otherpro li .wp {
-            background: transparent url("icons/wp_icon.png")
-                /*tpa=https://sqimg.qq.com/qq_product_operations/im/2015/wp_icon.png*/
-                no-repeat 32px center;
-        }
-
-        .otherpro li .qf {
-            background: transparent url("icons/qf_icon.png")
-                /*tpa=https://sqimg.qq.com/qq_product_operations/im/2015/qf_icon.png*/
-                no-repeat 31px center;
-        }
-
-        .otherpro li .qqdocs {
-            background: transparent url("icons/qqdocs-icon.png")
-                /*tpa=https://sqimg.qq.com/qq_product_operations/im/2018/qqdocs-icon.png*/
-                no-repeat 24px center;
-        }
-
-
-
-        .otherpro li .hwidgen {
-            background: transparent url("icons/hwidgen.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .kms10 {
-            background: transparent url("icons/kms10.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .rufus {
-            background: transparent url("icons/rufus.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .sgimini {
-            background: transparent url("icons/sgimini.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .ThunderMacmini {
-            background: transparent url("icons/ThunderMacmini.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .ThunderPC {
-            background: transparent url("icons/ThunderPC.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .tmall {
-            background: transparent url("icons/tmall.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .Win7Activation {
-            background: transparent url("icons/Win7Activation.png")
-                no-repeat 24px center;
-        }
-
-        .otherpro li .Win10Activation {
-            background: transparent url("icons/Win10Activation.png")
-                no-repeat 24px center;
-        }
-
-
-        .otherpro li .ql {
-            background: transparent url("icons/logo.png")
-                no-repeat 32px center;
-        }
-
-        .otherpro li .xl {
-            background: transparent url("icons/ThunderMacl.png")
-                no-repeat 32px center;
-        }
-
-        .prolist h2 {
-            height: 25px;
-        }
-
-        .prolist h2 strong {
-            margin-right: 10px;
-            font-size: 17px;
-        }
-
-        .prolist h2 em {
-            font-size: 12px;
-            color: #737373;
-        }
-
-        .prolist p {
-            font-size: 14px;
-            color: #737373;
-        }
-
-        .otherpro li a.btn78x31 {
-            float: right;
-            width: 78px;
-            height: 31px;
-            margin: 34px 20px 0 0;
-            background: transparent url("images/down_btn.png")
-                no-repeat 0 0;
-            text-align: center;
-            line-height: 32px;
-            color: #fff;
-            font-size: 14px;
-            letter-spacing: 0.12em;
-        }
-    </style>
+	<title>空洞骑士地图</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="leaflet.css"/>
+    <script src="leaflet.js"></script>
+	<script src="Leaflet.fullscreen.min.js"></script>
 </head>
-
 <body>
-    <!--S download-->
-    <div class="downWrap">
-        <div class="recommonDown">
-            <!--卡片一-->
-            <div class="rcwrap tim">
-                <a class="rcclick imgandurl" href="https://www.teamviewer.cn/cn/download/">
-                    <img src="images/tmcard.jpg">
-                </a>
-                <h2>
-                    <strong>
-                        <a class="wordAndUrl" href="https://www.teamviewer.cn/cn/download/">TeamViewer</a>
-                    </strong> 
-                    <em class="dver justword">15.7.6<sup><img src="images/newicon.jpg"></sup></em>
-                </h2>
-                <div class="lbtn">
-                    <em class="date">2020-3-31</em>
-                    <a class="down_btn_126x30 wordAndUrl okmemo-tmp-unselect" href="https://get.teamviewer.com/6acvdjm"><span>自动检测下载</span></a>
-                </div>
-            </div>
-            <!--卡片二-->
-            <div class="rcwrap tim">
-                <a class="rcclick imgandurl" href="https://sunlogin.oray.com/download">
-                    <img src="images/xrkcard.jpg">
-                </a>
-                <h2>
-                    <strong>
-                        <a class="wordAndUrl" href="https://sunlogin.oray.com/download">向日葵</a>
-                    </strong>
-                    <em class="dver justword">10.5.0<sup><img src="images/newicon.jpg"></sup></em>
-                </h2>
-                <div class="flbtn" id="mbdown">
-                    <div class="lbtn">
-                        <em class="date">2020-06-12</em>
-                        <div id="drwrap" class="drwrap">
-                            <a class="down_btn_126x30 andd" href="http://dl-cdn.oray.com/sunlogin/windows/SunloginClient_10.5.0.29613.exe"><span>Windows下载</span></a>
-                        </div>
-                    </div>
-                    <div class="lbtn">
-                        <em class="date">2020-06-15</em>
-                        <a class="down_btn_126x30 iosd" href="http://download.oray.com/sunlogin/mac/SunloginClient9.8.dmg"><span>macOS下载</span></a>
-                    </div>
-                </div>
-            </div>
-            <!--卡片三-->
-            <div class="rcwrap tim">
-                <a class="rcclick imgandurl" href="https://anydesk.com/zhs/downloads">
-                    <img src="images/anydeskcard.jpg">
-                </a>
+<div id="hkMap" style="height: 100%; background-color: black;"></div>
+<!--
 
-                <h2>
-                    <strong>
-                        <a class="wordAndUrl" href="https://anydesk.com/zhs/downloads">AnyDesk</a>
-                    </strong> 
-                    <em class="dver justword">5.5.3.0</em>
-                </h2>
-                <div class="flbtn" id="mbdown">
-                    <div class="lbtn">
-                        <em class="date">2020-06-12</em>
-                        <div class="drwrap">
-                            <a class="down_btn_126x30 andd" href="https://download.anydesk.com/AnyDesk.exe"><span>Windows下载</span></a>
-                        </div>
-                    </div>
-                    <div class="lbtn">
-                        <em class="date">2020-06-15</em>
-                        <a class="down_btn_126x30 iosd" href="https://download.anydesk.com/anydesk.dmg"><span>macOS下载</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--软件列表-->
-        <h2 class="proh2">常用软件</h2>
+<script>
+	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
-        <div class="otherpro" style="margin-bottom:20px">
-            <ul>
-                <li>
-                    <div class="prolist tmall">
-                        <h2>
-                            <strong>
-                                <a class="wordAndUrl" href="https://attachments-cdn.shimo.im/7sd6HWFOhrYRIwMZ.exe">天猫一键装机</a>
-                            </strong>
-                            <em class="date">2020-06-15</em>
-                        </h2>
-                        <p class="justword">远程系统安装维护工具</p>
-                    </div>
-                    <a class="forTcss btn78x31 wordAndUrl" href="https://attachments-cdn.shimo.im/7sd6HWFOhrYRIwMZ.exe">下载</a>
-                </li>
-                <li>
-                    <div class="prolist hwidgen">
-                        <h2>
-                            <strong>
-                                <a class="wordAndUrl" href="https://cmwtat.cloudmoe.com">Windows10数字权利</a>
-                            </strong>
-                            <em class="date">2014-01-22</em>
-                        </h2>
-                        <p class="justword">一键获取Win10数字权利</p>
-                    </div>
-                    <a href="https://github.com/TGSAN/CMWTAT_Digital_Edition/releases" class="btn78x31 wordAndUrl">下载</a>
-                </li>
-                <li>
-                    <div class="prolist Win7Activation">
-                        <h2>
-                            <strong>Win7Activation</strong>
-                            <em class="date">2020-04-23</em>
-                        </h2>
-                        <p>Win7Activation</p>
-                    </div>
-                    <a class="btn78x31 wordAndUrl" href="https://attachments-cdn.shimo.im/7h1gdHYZqjUxmLwK.exe">下载</a>
-                </li>
-                <li>
-                    <div class="prolist Win10Activation">
-                        <h2>
-                            <strong>
-                                <a class="wordAndUrl" href="https://attachments-cdn.shimo.im/UGiQBkejIQxkjLcR.exe">Windows10数字权利工具</a>
-                            </strong>
-                            <em class="date">2017-05-03</em></h2>
-                        <p>HWID&KMS支持</p>
-                    </div>
-                    <a class="btn78x31" href="https://attachments-cdn.shimo.im/UGiQBkejIQxkjLcR.exe">下载</a>
-                </li>
-                <li>
-                    <div class="prolist rufus">
-                        <h2>
-                            <strong>
-                                <a class="wordAndUrl" href="http://rufus.ie/">rufus</a>
-                            </strong>
-                            <em class="date">2017-05-03</em>
-                        </h2>
-                        <p>启动U盘快速制作工具</p>
-                    </div>
-                    <a class="btn78x31 wordAndUrl" href="https://attachments-cdn.shimo.im/AGDsRwhbXtmXvDBC.exe">下载</a>
-                </li>
-                <li>
-                    <div class="prolist sgimini">
-                        <h2>
-                            <strong>
-                                <a class="wordAndUrl" href="https://www.sysceo.com/">映像总裁一键装机</a>
-                            </strong>
-                            <em class="date">2020-06-09</em>
-                        </h2>
-                        <p>一键快速硬盘安装系统</p>
-                    </div>
-                    <a class="btn78x31 wordAndUrl" href="https://attachments-cdn.shimo.im/4Oqw6WPNE1zJeIpb.exe">下载</a>
-                </li>
-            </ul>
-        </div>
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(mymap);
 
-    </div>
-    <!--E download-->
+	L.marker([51.5, -0.09]).addTo(mymap)
+		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+
+	L.circle([51.508, -0.11], 500, {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5
+	}).addTo(mymap).bindPopup("I am a circle.");
+
+	L.polygon([
+		[51.509, -0.08],
+		[51.503, -0.06],
+		[51.51, -0.047]
+	]).addTo(mymap).bindPopup("I am a polygon.");
+
+
+	var popup = L.popup();
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent("You clicked the map at " + e.latlng.toString())
+			.openOn(mymap);
+	}
+
+	mymap.on('click', onMapClick);
+</script>
+-->
+<script>
+var hkMap = L.map('hkMap', {
+    crs: L.CRS.Simple,
+    minZoom: 0,
+    maxZoom: 8,
+});
+L.tileLayer('https://www.hallownest.net/hkMap/2021_02_08_new_script//{z}/{y}/{x}.png',{
+  tileSize:256,
+  zoomReverse:false,
+  minZoom: 0,
+  maxZoom: 8,
+  bounds:[[-256, 0], [ 0, 256]],
+  maxNativeZoom: 8,
+})
+
+.addTo(hkMap);
+hkMap.setView([-69.63124990463257, 105.125], 5)
+hkMap.addControl(new L.Control.Fullscreen());
+
+ hkMap.on('click', (ev) => {
+   hkMap.panTo(ev.latlng);
+   console.log(`hkMap.setView([${ev.latlng.lat}, ${ev.latlng.lng}], ${hkMap.getZoom()})`);
+ })
+</script>
 </body>
 </html>
